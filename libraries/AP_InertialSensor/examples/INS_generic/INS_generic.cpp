@@ -1,7 +1,9 @@
 //
 // Simple test for the AP_InertialSensor driver.
 //
+// 惯性传感器的驱动的简单测试
 
+// 硬件接口
 #include <AP_HAL/AP_HAL.h>
 #include <AP_BoardConfig/AP_BoardConfig.h>
 #include <AP_InertialSensor/AP_InertialSensor.h>
