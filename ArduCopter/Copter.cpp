@@ -625,4 +625,15 @@ Copter::Copter(void)
 Copter copter;
 AP_Vehicle& vehicle = copter;
 
+// 主函数
+#if 0
+extern "C" 
+{ 
+    int main(int argc, char* const argv[]); 
+    int main(int argc, char* const argv[]) { 
+        hal.run(argc, argv, &copter); 
+        return 0; 
+    } 
+}
+#endif
 AP_HAL_MAIN_CALLBACKS(&copter);
